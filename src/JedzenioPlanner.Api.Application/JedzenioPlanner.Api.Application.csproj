@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\JedzenioPlanner.Api.Domain\JedzenioPlanner.Api.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="9.2.2" />
+      <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="9.2.0" />
+      <PackageReference Include="MappingGenerator" Version="1.18.448" />
+      <PackageReference Include="MediatR" Version="9.0.0" />
+      <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.8" />
+      <PackageReference Include="SixLabors.ImageSharp" Version="1.0.1" />
+    </ItemGroup>
+
+</Project>
